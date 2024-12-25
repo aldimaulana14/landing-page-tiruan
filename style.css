@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.jumbotron {
+  height: 640px;
+  background-image: url(/img/jumbotron-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -70px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  padding-top: 30px;
+  border: none;
+}
+.jumbotron nav h1 {
+  color: aliceblue;
+}
+nav h1 {
+  margin-top: -7px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  padding: 20px;
+  justify-content: flex-end;
+}
+nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+nav ul li a:hover:not(.aktif) {
+  padding-bottom: 5px;
+  border-bottom: 3px solid blue;
+}
+.aktif {
+  padding-top: 11px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: blue;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.aktif:hover {
+  background-color: rgb(11, 11, 207);
+}
+.hero {
+  padding: 130px;
+}
+.hero h1 {
+  font-size: 70px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 300px;
+  margin: auto;
+  color: aliceblue;
+}
+.hero a {
+    font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: aliceblue;
+  background-color: blue;
+  padding-top: 11px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.hero a:hover {
+  background-color: rgb(11, 11, 207);
+}
+.hero h2 {
+    margin-top: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+/* konten */
+.konten {
+    margin-bottom: 50px;
+}
+
+.features {
+  width: 800px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 8px 1px #aaaaaa;
+}
+
+.employe {
+  width: 30%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  
+}
+.employe p {
+  color: rgb(185, 185, 185);
+}
+.employe .images-1 {
+  width: 50%;
+}
+.employe img {
+  width: 100px;
+  margin: 0;
+}
+.employe .kata-1 {
+  margin: 10px;
+}
+.employe .kata-1 h4 {
+  margin: 10px auto;
+}
+
+.hires {
+  width: 30%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  
+}
+.hires .images-2 {
+  width: 50%;
+}
+.hires img {
+  width: 100px;
+  margin: 0;
+}
+.hires .kata-2 {
+  margin: 10px;
+}
+.hires .kata-2 h4 {
+  margin: 10px auto;
+}
+.hires p {
+  color: rgb(185, 185, 185);
+}
+
+.secures {
+  width: 30%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: -15px;
+  
+}
+.secures .images-3 {
+  width: 50%;
+}
+.secures img {
+  width: 100px;
+  margin: 0;
+}
+.secures .kata-3 {
+  margin: 10px;
+}
+.secures .kata-3 h4 {
+  margin: 10px auto;
+}
+.secures p {
+  color: rgb(185, 185, 185);
+}
+
+.visi {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.visi img {
+  box-sizing: border-box;
+}
+.visi .kata-visi {
+  margin-left: 30px;
+  margin-top: 30px;
+  height: 330px;
+}
+.visi .kata-visi h4 {
+  font-size: 50px;
+  font-weight: 300;
+  width: 450px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: rgb(23, 23, 94);
+}
+.visi .kata-visi p {
+  width: 350px;
+  line-height: 1.50;
+  color: rgb(185, 185, 185);
+  margin-bottom: 30px;
+}
+.visi .kata-visi button {
+  font-size: 16px;
+  font-weight: 400;
+  color: aliceblue;
+  background-color: blue;
+  padding-top: 11px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border: none;
+}
+.kata-visi button:hover {
+  background-color: rgb(11, 11, 207);
+}
+
+.quotes {
+  margin-top: 30px;
+}
+.quotes h5 {
+  width: 550px;
+  font-size: 25px;
+  font-weight: 350;
+  line-height: 1.40;
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(16, 16, 87);
+}
+
+.designer {
+  width: 600px;
+  margin: 50px auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+}
+.designer .ke-1,
+.designer .ke-3 {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: .5px .5px 10px .5px #aaaaaa;
+}
+.designer .ke-1 img,
+.designer .ke-3 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  opacity: 0.3;
+  box-shadow: 1px 1px 8px 1px #aaaaaa;
+}
+.designer .ke-2 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.nama {
+  text-align: center;
+  margin-top: -30px;
+  
+}
+.nama h5 {
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  color: rgb(16, 16, 87);
+}
+.nama p {
+  text-align: center;
+  padding: 5px;
+  color: rgb(185, 185, 185);
+}
+
+footer {
+  padding: 50px;
+  background-color: black;
+}
+footer .copyright {
+  text-align: center;
+  align-items: center;
+}
+footer p {
+  font-size: 20px;
+  color: rgb(185, 185, 185);
+
+}
+footer a {
+  text-decoration: none;
+  color: rgb(0, 0, 255);
+}
+footer a:hover {
+  border-bottom: 1px solid blue;
+}
+
+
